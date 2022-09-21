@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{21EE04AA-C765-4684-8591-A948AE86C423}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BarakTI.My.MyApplication</StartupObject>
+    <RootNamespace>BarakTI</RootNamespace>
+    <AssemblyName>BarakTI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>BarakTI</ProductName>
+    <PublisherName>Riski</PublisherName>
+    <SuiteName>Meji</SuiteName>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>BarakTI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>BarakTI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hnet.com-image.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E8C514898CE2C60C72A2A4D5BE2E47A29358DFAE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>BarakTI_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.3.2, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddTransaksi.Designer.vb">
+      <DependentUpon>AddTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="database.vb" />
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormErrorLogin.Designer.vb">
+      <DependentUpon>FormErrorLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormErrorLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormErrorTransaksi.Designer.vb">
+      <DependentUpon>FormErrorTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormErrorTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExit.Designer.vb">
+      <DependentUpon>FormExit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormExit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuUtama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuUtama.Designer.vb">
+      <DependentUpon>FormMenuUtama.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSuccesTransaksi.Designer.vb">
+      <DependentUpon>FormSuccesTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSuccesTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuMakanan.Designer.vb">
+      <DependentUpon>MenuMakanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuMakanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuMinuman.Designer.vb">
+      <DependentUpon>MenuMinuman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MenuMinuman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RiwayatTransaksi.Designer.vb">
+      <DependentUpon>RiwayatTransaksi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RiwayatTransaksi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransaksiMinuman.Designer.vb">
+      <DependentUpon>TransaksiMinuman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TransaksiMinuman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Users.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddTransaksi.resx">
+      <DependentUpon>AddTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormErrorLogin.resx">
+      <DependentUpon>FormErrorLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormErrorTransaksi.resx">
+      <DependentUpon>FormErrorTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExit.resx">
+      <DependentUpon>FormExit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuUtama.resx">
+      <DependentUpon>FormMenuUtama.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSuccesTransaksi.resx">
+      <DependentUpon>FormSuccesTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuMakanan.resx">
+      <DependentUpon>MenuMakanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuMinuman.resx">
+      <DependentUpon>MenuMinuman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RiwayatTransaksi.resx">
+      <DependentUpon>RiwayatTransaksi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransaksiMinuman.resx">
+      <DependentUpon>TransaksiMinuman.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="BarakTI_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\Logo-tekinfo-01-01-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\708dce2b183ecceeb9076d07d88a45bc.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-login-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-xbox-x-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-xbox-x-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-database-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-database-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-database-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-close-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-sign-in-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-exit-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-minimize-window-25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login-Button-PNG-Image-File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-button-blue-hi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-6-removebg-preview.png" />
+    <None Include="Resources\Untitled-5-removebg-preview.png" />
+    <None Include="Resources\Untitled-4-removebg-preview.png" />
+    <None Include="Resources\Untitled-1-removebg-preview.png" />
+    <None Include="Resources\icon tambah menu-06.png" />
+    <None Include="Resources\icon riwayat-01.png" />
+    <None Include="Resources\icon riwayat transaksi-01.png" />
+    <None Include="Resources\icon makaknan41.png" />
+    <None Include="Resources\icon makaknan4.png" />
+    <None Include="Resources\icon_minuman-05-removebg-preview.png" />
+    <None Include="Resources\icon minuman-05.png" />
+    <None Include="Resources\Home_icon_orange.png" />
+    <None Include="Resources\37541.png" />
+    <None Include="Resources\download-icon-arrows+double+arrow+doublechevronleft+left+icon-1320185729725994033_512.png" />
+    <None Include="Resources\Hamburger_icon.svg_.png" />
+    <None Include="Resources\png-transparent-computer-icons-encapsulated-postscript-others-miscellaneous-button-icon-burger-menu.png" />
+    <None Include="Resources\52-521653_blue-close-button-png-close-button-blue-png-removebg-preview.png" />
+    <None Include="Resources\close-red-round-gel-isolated-push-button-vector-16243789-removebg-preview.png" />
+    <None Include="Resources\iconmak-01-removebg-preview.png" />
+    <None Include="Resources\thumb-1920-1026345.jpg" />
+    <None Include="Resources\photo-1579546929518-9e396f3cc809.jpg" />
+    <None Include="Resources\abstract-blurred-gradient-background--rainbow-colors--colorful.jpg" />
+    <None Include="Resources\25991948.jpg" />
+    <None Include="Resources\png-clipart-exit-exit.png" />
+    <None Include="Resources\button_menu-minuman.png" />
+    <None Include="Resources\button_menu-makanan.png" />
+    <None Include="Resources\button_riwayat-transaksi.png" />
+    <None Include="Resources\button_add-transaksi %284%29.png" />
+    <None Include="Resources\button_add-transaksi %282%29.png" />
+    <None Include="Resources\button_add-transaksi %281%29.png" />
+    <None Include="Resources\button_add-transaksi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconuser-07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconuser-071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon user besar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon kunci-08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password-icon-png-16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon user besar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon kunci-081.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon user besar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon user besar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon user besar4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Circle-icons-profile.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconmak-01-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconmak-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconmak-01-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_minuman-05-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_minuman-05-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quit-icon-png-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quit-icon-png-61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home_icon_orange1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-orange-and-white-house-icon-computer-icons-home-free-of-house-icon-angle-text-orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-orange-and-white-house-icon-computer-icons-home-free-of-house-icon-angle-text-orange-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-orange-and-white-house-icon-computer-icons-home-free-of-house-icon-angle-text-orange-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon riwayat-011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72-728597_money-logos-png-transparent-download-anti-facebook-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-error-closeup-miscellaneous-text-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-error-closeup-miscellaneous-text-logo-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-error-closeup-miscellaneous-text-logo-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-round-green-check-mark-illustration-check-mark-bottle-material-green-tick-miscellaneous-angle-company-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7eca57e1092e6a470c2f28961afdd9c9-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-4-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-google-search-symbol-mobile-search-search-for-miscellaneous-logo-mobile-phones-thumbnail-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\301080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\151409.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconmak-01-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_minuman-05-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72-728597_money-logos-png-transparent-download-anti-facebook-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hnet.com-image.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".ico">
+      <Visible>False</Visible>
+      <Description>Riski Meji</Description>
+      <Progid>18</Progid>
+      <DefaultIcon>hnet.com-image.ico</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

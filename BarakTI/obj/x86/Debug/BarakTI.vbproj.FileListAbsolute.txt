@@ -1,0 +1,48 @@
+D:\Projects\BarakTI\BarakTI\bin\Debug\BarakTI.exe
+D:\Projects\BarakTI\BarakTI\bin\Debug\BarakTI.pdb
+D:\Projects\BarakTI\BarakTI\bin\Debug\BarakTI.xml
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.FormMenuUtama.resources
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.Resources.resources
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.vbproj.GenerateResource.Cache
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.exe
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.xml
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.pdb
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.FormLogin.resources
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.MenuMakanan.resources
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.MenuMinuman.resources
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.Form1.resources
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.RiwayatTransaksi.resources
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.AddTransaksi.resources
+D:\Projects\BarakTI\BarakTI\obj\x86\Debug\BarakTI.TransaksiMinuman.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.exe
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.xml
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.pdb
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.AddTransaksi.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.Form1.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.FormLogin.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.FormMenuUtama.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.MenuMakanan.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.MenuMinuman.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.Resources.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.RiwayatTransaksi.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.TransaksiMinuman.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.vbproj.GenerateResource.Cache
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\BarakTI.exe
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\BarakTI.pdb
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\BarakTI.xml
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\BarakTI.exe.config
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.vbproj.AssemblyReference.cache
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.vbproj.CoreCompileInputs.cache
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.vbproj.CopyComplete
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.Form2.resources
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\Guna.UI2.dll
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.FormErrorLogin.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.FormSuccesTransaksi.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.FormErrorTransaksi.resources
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.FormExit.resources
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\BarakTI.exe.manifest
+D:\Projects\beta BarakTI\BarakTI\bin\Debug\BarakTI.application
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.exe.manifest
+D:\Projects\beta BarakTI\BarakTI\obj\x86\Debug\BarakTI.application

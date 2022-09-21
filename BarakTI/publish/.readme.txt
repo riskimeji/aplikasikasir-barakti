@@ -1,0 +1,5 @@
+1. Import Database "db_barak.sql" in mysql (xampp)
+2. install mysql-connector-odbc
+3. add mysql odbc 3.5.1 and select db_barak
+4. run setup
+5. done
